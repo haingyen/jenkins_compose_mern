@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'compose-agent'  // Chạy trên agent có label 'compose'
+        label 'compose-agent'  // Chạy trên agent có label 'compose-agent'
     }
 
     environment {
